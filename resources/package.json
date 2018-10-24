@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-packager": "^10.1.1",
+    "electron-winstaller": "^2.6.3"
+  },
+  "scripts": {
+    "packager": "electron-packager ./app test --platform=win32 --arch=x64 --out ./OutApp --version 1.7.5 --overwrite --icon=./app/favicon.ico"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "nintendo-switch-eshop": "^1.0.7"
+  }
+}
